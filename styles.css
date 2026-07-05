@@ -1,1 +1,58 @@
 /*styles for pages*/
+/* Resume-inspired styling */
+
+body {
+    background-color: #f7f4ee; /* soft off‑white */
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-menu li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
