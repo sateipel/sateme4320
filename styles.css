@@ -56,8 +56,19 @@ h2 {
 footer {
     text-align: center;
     font-size: 16px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 20px 0;
     color: #333;
-    line-height: 1.4;
+    line-height: 1;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit; 
+    font-size: 16px;
+    resize: vertical; 
 }
