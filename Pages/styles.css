@@ -21,6 +21,12 @@ nav {
     margin-top: 10px;
 }
 
+.section-divider {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 0;
+}
+
 .nav-menu {
     list-style: none;
     padding: 0;
